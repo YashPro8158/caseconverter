@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter | The World best tool to count word in a sec</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ 
+</head>
+
+<body>
+    
+<div class=" w-[98%] md:w-[100%] mx-auto flex flex-col gap-3 sm:h-auto h-[100vh]" >
+    <div class="head text-white bg-purple-700 flex flex-col lg:flex-row lg:gap-4 lg:justify-around justify-center items-center py-3 gap-2">
+        <h1 class="tracking-wider  text-3xl md:text-4xl "><a href="/">CaseConvertor.net</a></h1>
+        <ul class="menulist flex flex-wrap gap-3 justify-center items-center md:gap-5">
+            <li><a class="text-[16px] px-3 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150 " href="/">Home</a></li>
+            <li><a class="text-[16px] px-3 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150 " href="/About.html">About</a></li>
+            <li><a class="text-[16px] px-3 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150 " href="/Tools.html">Tools</a></li>
+            <li><a class="text-[16px] px-3 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150 " href="/Help.html">Help Us</a></li>
+            <li class="flex justify-center items-center px-3 py-1 bg-yellow-400 text-black rounded-md"><a href="/sign.html">Sign in<ion-icon name="log-in-outline"></ion-icon></a></li>
+        </ul>
+    </div>
+
+    <!-- Login Form Starts -->
+    
+    <!-- Login Form Ends -->
+
+    <div class="containerbox flex flex-col gap-5">
+        <div class="heading bg-purple-400 flex items-center justify-center py-3 text-black tracking-wider gap-4 text-2xl" ><div id="timeDisplay"></div> <span id="char">0</span> <span class="chartext">Characters</span></div>\ 
+        <div class="inputbox">
+          <textarea name="typearea" id="typearea" cols="30" rows="10" placeholder="Start Typing Here..........." class="w-[100%] bg-purple-200 outline-none p-3 selection:bg-purple-500 selection:text-white rounded-md" ></textarea>
+        </div>
+        <div class="buttons flex flex-wrap gap-3 justify-center">
+            <button id="upper" class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150" >a to A Uppercase</button>
+            <button id="lower"  class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150">A to a Lower</button>
+            <button id="capt" class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150" >Capitilize Text</button>
+            <button id="bold"  class="bg-purple-900 text-white te0xt-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150">Bold</button>
+            <button id="italic"  class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150">Italic</button>
+            <button id="copy"  class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150"> <ion-icon name="copy-outline"></ion-icon>Copy</button>
+            <button id="print"  class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150"><ion-icon name="print-outline"></ion-icon> Print</button>
+            <button id="clear"  class="bg-purple-900 text-white text-[16px] px-4 py-1 rounded-md hover:bg-yellow-400 hover:text-black duration-150"><ion-icon name="trash-outline"></ion-icon> Clear</button>
+        </div>
+    </div>
+    <footer class="sm:absolute sm:bottom-0 text-center w-[98%] ">
+        <span class="text-purple-500 font-bold">&copy; Right with <a href="/" >YashBhola</a></span>
+    </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply text-white bg-black tracking-wide px-4 py-1 cursor-pointer 
+}
+
+.boldactive{
+    font-weight: bold;
+}
+.italicactive{
+    font-style: italic;
+}
