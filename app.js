@@ -6,7 +6,7 @@ let bold = document.getElementById("bold");
 let italic = document.getElementById("italic");
 let copy = document.getElementById("copy");
 let char = document.getElementById("char");
-let wordCount = document.getElementById("word1");
+let wordCount = document.getElementById("wrd");
 let print = document.getElementById("print");
 let clear= document.getElementById("clear");
 
@@ -53,8 +53,10 @@ copy.addEventListener("click", async function () {
     navigator.clipboard.writeText(typearea.value);
 })
 typearea.addEventListener("input", function () {
-    let count = typearea.value.length;
-    char.textContent = count;
+    let charcount = typearea.value.length;
+    let wrdcount = typearea.split(" ").length;
+    char.textContent = charcount;
+    wordCount.textContent = wrdcount;
 })
 
 typearea.addEventListener("keydown", function (event) {
