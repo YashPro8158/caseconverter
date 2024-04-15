@@ -78,5 +78,6 @@ print.addEventListener("click", function () {
 clear.addEventListener("click",function () {
     typearea.value = "";
     char.textContent = 0;
+    word.textContent = 0;
 })
 
